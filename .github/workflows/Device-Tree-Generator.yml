@@ -6,7 +6,7 @@ on:
       DEVICE_IMG:
         description: '(.img) file link'
         required: true
-        default: 'https://dumps.tadiphone.dev/dumps/samsung/a05s/-/raw/a05snsdxx-user-14-UP1A.231005.007-A057FXXS5CXH9-release-keys/recovery.img'
+        default: 'https://dumps.tadiphone.dev/dumps/redmi/amethyst/-/blob/missi-user-15-AQ3A.240912.001-OS2.0.4.0.VOPCNXM-release-keys/recovery.img'
       DEVICE_BRANCH:
         description: 'your device branch name (Optional)'
         required: true
@@ -18,7 +18,7 @@ on:
       EMPTY_REPO:
         description: 'your empty repo name on github (Optional)'
         required: true
-        default: 'android_device_samsung_a05s.git'
+        default: 'android_device_xiaomi.git'
       COMMIT_MESSAGE:
         description: 'your commit message (Optional)'
         required: true
